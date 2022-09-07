@@ -1,0 +1,9 @@
+package coffeeBills;
+
+public class test {
+	public static void main(String[] args) {
+		coffeeBill cb = new coffeeBill("coffee cut chon", 200, 2);
+		System.out.println("totallBill: "+cb.totalBill());
+		System.out.println("weigh >3kg :" +cb.testcase_Weigh_larger(3) );
+	}
+}

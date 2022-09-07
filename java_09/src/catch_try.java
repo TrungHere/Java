@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class catch_try {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int m=0;
+		try {
+			System.out.println("nhap vao so nguyen n: ");
+			m = sc.nextInt();
+		} catch (Exception e) {
+			System.out.println("nhap du lieu khong dung");
+		}
+		System.out.println("gia tri nhap la: "+ m);
+		System.out.println("ket thuc chuong trinh");
+
+	}
+}

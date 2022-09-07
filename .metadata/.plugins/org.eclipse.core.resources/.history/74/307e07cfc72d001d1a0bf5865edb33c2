@@ -1,0 +1,29 @@
+package coffeeBills;
+
+public class coffeeBill {
+	private String coffeType;
+	private double price;
+	private double weigh;
+	
+	public coffeeBill(String n, double p, double w) {
+		this.coffeType = n;
+		this.price = p;
+		this.weigh = w;
+		
+	}
+	
+	
+	public double totalBill() {
+		return this.price*this.weigh;
+	}
+	public boolean testcase_Weigh_larger(double w) {
+		/*if(this.weigh > w) {
+		 * 		return true;
+		 * }else {
+		 * 		return false;
+		 * }
+		 */
+		return this.weigh > w;
+	}
+
+}

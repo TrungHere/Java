@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+D:\Trung-Admin\WorkSpace\eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3153768518.index
+411313567.index
+3567769441.index
+1036960863.index
+613858606.index
+1313666601.index

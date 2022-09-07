@@ -1,0 +1,8 @@
+package coffeeBills;
+
+public class test {
+	public static void main(String[] args) {
+		coffeeBill cb = new coffeeBill("coffee cut chon", 2000000, 2);
+		cb.totalBill();
+	}
+}

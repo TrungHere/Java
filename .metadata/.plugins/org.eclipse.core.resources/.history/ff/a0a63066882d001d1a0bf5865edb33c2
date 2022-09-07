@@ -1,0 +1,14 @@
+
+public class breakk_conttinue_rreturn {
+	public static void main(String[] args) {
+		int I, J = 0;
+		for (I = 0; I < 10; I++) {
+			for (J = 0; J < 20; J++) {
+				if (J > 10)
+					break;
+			}
+			System.out.println("bên trong vòng lặp out: out = " + I + ", in = " + J);
+		}
+		System.out.println("bên ngoài vòng lặp out: out = " + I + ", in = " + J);
+ 	}
+}

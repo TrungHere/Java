@@ -1,0 +1,20 @@
+package coffeeBills;
+
+public class coffeeBill {
+	private String coffeType;
+	private double price;
+	private double weigh;
+	
+	public coffeeBill(String name, double price, double weigh) {
+		this.coffeType = name;
+		this.price = price;
+		this.weigh = weigh;
+		
+	}
+	
+	
+	public double totalBill() {
+		return this.price*this.weigh;
+	}
+
+}
